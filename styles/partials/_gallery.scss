@@ -1,7 +1,7 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); // Three columns
-    grid-template-rows: repeat(5, 200px); // Five rows, each row 200px tall
+    grid-template-rows: repeat(5, 1fr); // Five rows, each row 200px tall
     gap: 10px; // Gap between grid items
   
     .photo {
@@ -13,7 +13,7 @@
       font-size: 16px;
     }
   
-    // Define the placement of each photo
+
     .photo1 {
       grid-column: 1 / 2;
       grid-row: 1 / 3;

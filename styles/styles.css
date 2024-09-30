@@ -1,14 +1,15 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   
   body, html {
-    font-family: Arial, sans-serif;
     height: 100%;
   }
+  .mulish {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+  }
+  
   
   /* Header styles */
   header {
@@ -38,7 +39,7 @@
     color: #000;
   }
   
-  /* Gallery section with grid layout */
+
   .gallery {
     padding: 20px;
   }
@@ -74,7 +75,7 @@
     color: #555;
   }
   
-  /* Contact Form */
+
   .contact-form {
     padding: 40px 20px;
   }
@@ -86,7 +87,7 @@
   
   .contact-form form {
     max-width: 500px;
-    margin: 0 auto;
+  
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -130,4 +131,5 @@
     display: flex;
     gap: 10px;
   }
+
   
