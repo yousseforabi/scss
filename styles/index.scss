@@ -1,4 +1,5 @@
-@import 'partials/_header';
-@import 'partials/_footer';
-@import 'partials/_general';
-@import 'partials/_gallery-grid';  // Only needed for the index page
+@import 'header.scss';
+@import 'footer.scss';
+@import 'general.scss';
+@import 'form.scss';
+@import '_gallery-grid.scss'

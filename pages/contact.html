@@ -26,43 +26,55 @@
     </nav>
   </header>
 
-  <section class="contact-form">
-    <div>
-        <h2>Full set of great features to make your product fresh
+  <section class="contact-container">
+    <div class="contact-left">
+      <h1>Full set of great features to make your product fresh</h1>
+      <p>Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
+    </div>
+    
+    <div class="contact-right">
+      <form action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
 
-        </h2>
-        <p>Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p></div>
-    <h1>Contact Us</h1>
-    <form action="#">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </section>
-  <section>
-    <img alt="location">
+   <!-- Map Section -->
+   <section class="map-section">
+    <img src="../images/Map.png" alt="Location Map">
   </section>
 
   <footer>
     <div class="footer-container">
-      <p>Genesis</p>
-      <div class="social-links">
-        <a href="#" class="social-icon">
-          <img src="../images/dribbble-logo.png" alt="Facebook Logo" />
-        </a>
-        <a href="#" class="social-icon">
-          <img src="../images/instagram.png" alt="Instagram Logo" />
-        </a>
-        <a href="#" class="social-icon">
-          <img src="../images/twitter-logo-silhouette.png" alt="Twitter Logo" />
-        </a>
+      <div class="footer-left">
+        <div class="logo">Genesis</div>
+      </div>
+      <div class="footer-center">
+        <ul class="nav-links">
+          <li><a href="index.html#">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <div class="social-links">
+          <a href="#" class="social-icon">
+            <img src="../images/dribbble-logo.png" alt="Dribbble Logo" />
+          </a>
+          <a href="#" class="social-icon">
+            <img src="../images/instagram.png" alt="Instagram Logo" />
+          </a>
+          <a href="#" class="social-icon">
+            <img src="../images/twitter-logo-silhouette.png" alt="Twitter Logo" />
+          </a>
+        </div>
       </div>
     </div>
   </footer>

@@ -1,0 +1,40 @@
+footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-top: 1px solid #eaeaea;
+}
+footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; /* Aligns the logo to the left and social links to the right */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* Vertically aligns the logo and social links */
+}
+footer .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+footer .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+footer .social-links a img {
+  width: 24px;
+  height: 24px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+}
+footer .social-links a img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
