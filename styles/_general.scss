@@ -25,7 +25,7 @@
   
     .services {
       display: grid;
-      grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+      grid-template-columns: repeat(3, 1fr); 
       gap: 20px;
       margin-bottom: 50px;
   
@@ -38,7 +38,7 @@
     .awards {
       .award-group {
         display: grid;
-        grid-template-columns: 1fr 1fr 2fr 1fr; /* Columns for award sections */
+        grid-template-columns: 1fr 1fr 2fr 1fr; 
         gap: 20px;
         padding-bottom: 15px;
         border-bottom: 1px solid #ccc;
@@ -46,15 +46,15 @@
   
         .award-title {
           font-weight: bold;
-          grid-column: 1 / 2; /* Title in the first column */
+          grid-column: 1 / 2; 
         }
   
         .award-detail {
-          grid-column: span 1; /* Allow other details to span across their columns */
+          grid-column: span 1; 
         }
   
         &:last-child {
-          border-bottom: none; /* Remove bottom border for the last item */
+          border-bottom: none; 
         }
       }
     }
@@ -109,10 +109,13 @@
   
     .project-details {
       width: 30%;
+    
       ul {
         list-style: none;
+        border-bottom: 1px solid #ccc;
         li {
           margin-bottom: 10px;
+          border-bottom: 1px solid #ccc;
           font-size: 1rem;
           strong {
             font-weight: bold;
@@ -192,7 +195,6 @@
           color: white;
           border: none;
           border-radius: 5px;
-          cursor: pointer;
           font-size: 1rem;
         }
   
@@ -206,8 +208,9 @@
   .map-section {
     margin: 50px 0;
     img {
-      width: 100%;
+      width: 80%;
       height: auto;
+      justify-content: center;
     }
   }
   
